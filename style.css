@@ -220,7 +220,7 @@ button :hover{
     margin: auto;
 } */
 .contact-conteiner{
-    min-height: 54vh;
+    min-height: 55vh;
     align-items: center;
     justify-content: center;
     background: url(./img/FONDO\ PORTFOLIO\ opacity.png) no-repeat;
@@ -228,11 +228,12 @@ button :hover{
     background-position: center;
     backdrop-filter: blur (10px);
     perspective: 1000px;
+    margin-bottom: 2rem ;
 }
 .contact-conteiner form {
-    height: 33vh;
+    height: 35vh;
     width: 22rem;
-    background-image: url(./img/FONDO\ PORTFOLIO\ opacity.png);
+    /* background-image: url(./img/FONDO\ PORTFOLIO\ opacity.png); */
     background: rgba(255, 255, 255, .1);
     border-radius: 5px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
