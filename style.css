@@ -185,14 +185,14 @@ button :hover{
 }
 .about-text {
     font-family: source;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--blanco);
 }
 
 .skills {
     font-family: rubik;
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
     color: var(--color);
 }
 .gallery{
@@ -227,7 +227,8 @@ button :hover{
     background-size:contain;
     background-position: center;
     backdrop-filter: blur (10px);
-    perspective: 1000px;
+    /* perspective: 1000px; */
+    margin-top: 4rem;
     margin-bottom: 2rem ;
 }
 .contact-conteiner form {
@@ -240,8 +241,8 @@ button :hover{
     border-top: 1px solid rgba(255, 255, 255, .3);
     border-top: 1px solid rgba(255, 255, 255, .3);
     backdrop-filter: blur (10px);
-    transition: all ease 1600ms;
-    transform-style:preserve-3d;
+    /* transition: all ease 1600ms;
+    transform-style:preserve-3d; */
 }
 
 form {
@@ -281,7 +282,7 @@ form {
 footer{
     background-color: var(--gris);
     height: 3rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
