@@ -59,14 +59,14 @@ nav{
 	position: fixed;
 	top: 0;
 	bottom: 0;
-	left:-300px;
-	width: 300px;
+	left:-200px;
+	width: 200px;
 	z-index: 5;
 	padding: 90px 30px 30px;
 	background:var(--gris);
 	opacity: 0;
 	transition: all 0.75s ease;
-	overflow-y: auto;
+	/* overflow-y: auto; */
 }
 /* li ,a ,button {
     font-size: 1rem;
@@ -90,7 +90,7 @@ nav{
     color: var(--color);
 }
 nav a{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: source;
     color: var(--blanco);
     text-decoration: none;
@@ -140,7 +140,7 @@ button :hover{
 
 .title {
     font-family: rubik;
-    font-size: .6rem;
+    font-size: .5rem;
     color: var(--blanco);
     margin-left: 3rem;
     margin-top: 2rem;
@@ -150,7 +150,7 @@ button :hover{
     line-height: 3rem;
 }
 .broma{
-    font-size: 1rem;
+    font-size: .7rem;
     display: flex;
 }
 .about-container {
@@ -162,7 +162,7 @@ button :hover{
 
 .foto2 img{
     margin-top: -4rem;
-    width: 30rem;
+    width: 23rem;
     z-index: 1;
 }
 .foto2 {
@@ -179,20 +179,19 @@ button :hover{
 }
 .about-title {
     font-family: source;
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--color);
+    margin-bottom: 1rem;
 }
 .about-text {
     font-family: source;
     font-size: 1.3rem;
     color: var(--blanco);
 }
-.skils-container{
-    margin-top: 10rem;
-}
+
 .skills {
     font-family: rubik;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 3rem;
     color: var(--color);
 }
@@ -221,8 +220,7 @@ button :hover{
     margin: auto;
 } */
 .contact-conteiner{
-    min-height: 50vh;
-
+    min-height: 54vh;
     align-items: center;
     justify-content: center;
     background: url(./img/FONDO\ PORTFOLIO\ opacity.png) no-repeat;
@@ -233,7 +231,7 @@ button :hover{
 }
 .contact-conteiner form {
     height: 33vh;
-    width: 25rem;
+    width: 22rem;
     background-image: url(./img/FONDO\ PORTFOLIO\ opacity.png);
     background: rgba(255, 255, 255, .1);
     border-radius: 5px;
@@ -251,7 +249,7 @@ form {
 }
 .contact-title {
     font-family: rubik;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--color);
     
 }
